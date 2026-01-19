@@ -1,0 +1,21 @@
+{
+  "name": "mail-templates-generator",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/VincenzoMars-tw/mail-templates-generator#readme",
+  "bugs": {
+    "url": "https://github.com/VincenzoMars-tw/mail-templates-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincenzoMars-tw/mail-templates-generator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "pug": "^3.0.3"
+  }
+}
