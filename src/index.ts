@@ -8,7 +8,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function generateTemplates() {
-  // Usa __dirname per andare alla root del progetto
   const rootDir = path.join(__dirname, "..");
   const templatesDir = path.join(rootDir, "templates");
   const templateFiles = fs
@@ -53,7 +52,6 @@ async function generateTemplates() {
     path.join(templatesDir, `${templateName}.pug`),
   );
 
-  // Leggi i JSON file usando fs.readFileSync invece di require
   const mailsData = JSON.parse(
     fs.readFileSync(path.join(dataDir, `${templateName}.json`), "utf-8"),
   );
