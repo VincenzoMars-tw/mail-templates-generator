@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "mail-templates-generator",
   "version": "1.0.0",
   "description": "",
@@ -12,10 +13,19 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
+    "inquirer": "^8.2.7",
     "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }

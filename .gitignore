@@ -1,4 +1,7 @@
 node_modules
-output
-templates
-data
+templates/*
+!templates/.gitkeep
+data/*
+!data/.gitkeep
+out/*
+!out/.gitkeep
