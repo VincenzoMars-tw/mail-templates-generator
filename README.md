@@ -1,4 +1,4 @@
-### Just a HTML template generator base on Pug :P
+### Just a HTML template generator based on Pug :P
 - load your template.pug inside 'templates/' dir.
 - load your data.json inside 'data/' dir. (with the same name as the template.pug)
 - 'npm run start' to generate your html templates based on your json data
